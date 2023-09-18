@@ -2,5 +2,8 @@ pipeline {
   agent any
   environment {
     team = elite }
-
+  stages {
+   stage ('git commit')
+     staps{
+      git "URL"
 }
